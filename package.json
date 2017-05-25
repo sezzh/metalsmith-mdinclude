@@ -1,0 +1,28 @@
+{
+  "name": "metalsmith-mdinclude",
+  "version": "0.1.0",
+  "description": "a plugin to enable importing markdown files using markdown-include lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "metalsmith",
+    "plugin",
+    "metalsmith",
+    "markdown",
+    "markdown",
+    "include"
+  ],
+  "author": "sezzh <sezzltd@gmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "markdown-include": "^0.4.3",
+    "s-walker": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "metalsmith": "^2.3.0",
+    "standard": "^10.0.2"
+  }
+}
